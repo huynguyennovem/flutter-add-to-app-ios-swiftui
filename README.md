@@ -458,9 +458,3 @@ Voila! Now you can seamlessly communicate between Flutter module and existing ap
 
 <video src="https://user-images.githubusercontent.com/104349824/270668768-fa405f13-94b7-4fda-ab29-234c0f314fec.mp4"/>
 
-Check out the complete sample code at https://github.com/huynguyennovem/flutter-add-to-app-ios-swiftui
-
-### Conclusion
-
-This article has walked you through the process of integrating a Flutter module into your iOS application, allowing for seamless communication and data exchange. By incorporating Flutter's capabilities within your native iOS project, your team won't have to worry about rewriting your entire app with Flutter, streamlining development and enhancing the user experience.
-

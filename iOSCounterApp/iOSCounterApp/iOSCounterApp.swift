@@ -7,11 +7,13 @@
 
 import SwiftUI
 import Flutter
+import FlutterPluginRegistrant
 
 class FlutterDependencies: ObservableObject {
     let flutterEngine = FlutterEngine(name: "flutter-engine")
     init() {
         flutterEngine.run()
+        GeneratedPluginRegistrant.register(with: self.flutterEngine)
     }
 }
 

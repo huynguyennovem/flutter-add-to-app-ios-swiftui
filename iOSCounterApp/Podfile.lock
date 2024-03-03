@@ -1,22 +1,29 @@
 PODS:
+  - device_info_plus (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
   - FlutterPluginRegistrant (0.0.1):
+    - device_info_plus
     - Flutter
 
 DEPENDENCIES:
+  - device_info_plus (from `../flutter_counter/.ios/.symlinks/plugins/device_info_plus/ios`)
   - Flutter (from `../flutter_counter/.ios/Flutter`)
   - FlutterPluginRegistrant (from `../flutter_counter/.ios/Flutter/FlutterPluginRegistrant`)
 
 EXTERNAL SOURCES:
+  device_info_plus:
+    :path: "../flutter_counter/.ios/.symlinks/plugins/device_info_plus/ios"
   Flutter:
     :path: "../flutter_counter/.ios/Flutter"
   FlutterPluginRegistrant:
     :path: "../flutter_counter/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  FlutterPluginRegistrant: 58acfb6cb31ee4ca14f920aba101815efda113ee
+  device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  FlutterPluginRegistrant: 0ed7c650f86cac521258db1b2be74da6fad51082
 
 PODFILE CHECKSUM: 90e24a986c808b16c776fa746b65e204243909f6
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2
